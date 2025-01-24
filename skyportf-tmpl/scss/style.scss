@@ -7,7 +7,7 @@ $white: #fff;
 $black: #000000;
 $darken: #232931;
 
-$primary: #3e64ff;
+$primary: #009fe8;
 $secondary: #a0f669;
 
 
@@ -27,9 +27,9 @@ $secondary: #a0f669;
     transition:         all $transition ease;
 }
 
-html {
+// html {
 	// overflow-x: hidden;
-}
+// }
 body {
 	font-family: $font-primary;
 	background: $white;
@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5,
 		width: 40px;
 		height: 40px;
 		content: '';
-		background: $primary;
+		background: #fff;
 		z-index: -1;
 		transform: translateY(-50%);
 		@include border-radius(50%);
