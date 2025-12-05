@@ -10738,3 +10738,19 @@ textarea.form-control {
 }
 
 /*# sourceMappingURL=style.css.map */
+/* add custom */
+.resume-wrap .icon i {
+    color: #fff;
+    font-size: 28px;
+}
+.ion-ios-link:before {
+  vertical-align: middle;
+}
+
+.services-1:hover .icon i path, .services-1:hover .icon i circle {
+  fill: #fff;
+}
+
+.project .text h2, .project .text h3 {
+  color: #fff;
+}
